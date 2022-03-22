@@ -1,8 +1,9 @@
 void main() {
   var list = [12, 14, 16, 20, 24, 45, 59, 35, 89, 55];
 
+  print(list);
   print(list.length);
-  print(list[list.length -1]);
+  print(list[list.length - 1]);
   print(list[4]);
 
   for (int i = 0; i < list.length; i++) {
